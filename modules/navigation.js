@@ -1,4 +1,4 @@
-const navFunction = () => {
+export default function navFunction() {
   const listPage = document.querySelector('.collection-section');
   const formPage = document.querySelector('.form');
   const contactPage = document.querySelector('.ContactPage');
@@ -32,5 +32,4 @@ const navFunction = () => {
     list.classList.remove('displaye');
     addNav.classList.remove('displaye');
   });
-};
-export default { navFunction } ;
+}

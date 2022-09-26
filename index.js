@@ -1,5 +1,5 @@
 import Books from './modules/booksClass.js';
-import { navFunction } from './modules/navigation.js';
+import navFunction from './modules/navigation.js';
 import { DateTime } from './modules/datetime.js';
 import {
   collection, title, author, addBtn,
