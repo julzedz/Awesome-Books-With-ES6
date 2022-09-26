@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script type="module" src="./index.js"></script>
+  <title>Awesome Books</title>
+</head>
+<body>
+  <header>
+    <h1>Awesome Books</h1>
+    <nav>
+    <ul class="nav">
+      <li class="list-book-nav">List</li>
+      <li class="add-book-nav">Add Book</li>
+      <li class="contact-nav">Contact</li>
+    </ul>
+  </nav>
+  </header>
+<main>
+    <p class="date"></p>
+  <section class="collection-section">
+    <h2>All Awesome Books</h2>
+    <ul class="collection">
+
+    </ul>
+  </section>
+  <section class="form">
+    <form onclick="return false;" id="form-element" method="post">
+      <h2 id="form-title">Add A New Book</h2>
+      <div id="book-det">
+      <input type="text" class="title-input" placeholder="Title">
+      <input type="text" class="author-input" placeholder="Author">
+      <button class="add-btn">Add</button>
+      </div>
+    </form>
+    </section>
+    <section class="ContactPage">
+      <h2>Contact Information</h2>
+      <p>Do you have any questions or you just want to say "Hello"?<br>You can reach out to us!</p>
+      <ul>
+        <li>Our e-mail: mail@mail.com</li>
+        <li>Our phone: 00435286200928</li>
+        <li>Our address: Streetname 22, 83560 City, Country</li>
+      </ul>
+    </section>
+</main>
+<footer>
+    <p>Copyright &copy; <span class="year"></span> Divyansh Singh and Julian Chukwuma</p>
+  </footer>
+</body>
+</html>
