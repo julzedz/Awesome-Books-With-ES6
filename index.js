@@ -1,4 +1,4 @@
-import Books from "./booksClass.js";
+import Books from "./modules/booksClass.js";
 
 const collection = document.querySelector(".collection");
 const title = document.querySelector(".title-input");
