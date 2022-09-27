@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+// import * as THREE from './node_modules/three.js';
 import Books from './modules/booksClass.js';
 import navFunction from './modules/navigation.js';
 import { DateTime } from './modules/datetime.js';
@@ -6,7 +6,7 @@ import {
   collection, title, author, addBtn,
 } from './modules/variables.js';
 
-const scene = new THREE.Scene();
+// const scene = new THREE.Scene();
 
 const newBook = new Books();
 let { books } = newBook;
